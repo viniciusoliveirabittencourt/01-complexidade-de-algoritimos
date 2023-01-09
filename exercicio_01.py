@@ -9,7 +9,7 @@
 def contains_duplicate(numbers):
     numbers.sort()  # Complexidade O(n log n)
     previous_number = "not a number"
-    for number in numbers: # Complexidade O(n)
+    for number in numbers:  # Complexidade O(n)
         if previous_number == number:
             return True
 
@@ -17,5 +17,9 @@ def contains_duplicate(numbers):
 
     return False
 
-# Complexidade total é de O((n log n) * n)
-# Descartando as variaveis, ele séria então O(n log n)
+
+# Complexidade total é de O((n log n) + n) para o médio e pior caso e
+# O((n log n) + 1) para o melhor caso
+# que seria achar a duplicidade no inicio.
+# Simplificando, dá O(n log n) independente do caso de
+# melhor, médio ou pior caso.
