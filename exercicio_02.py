@@ -42,4 +42,6 @@ print(
 
 # Para minha surpresa, ao criar o código, percebi que se trata
 # de um algoritimo linar, O(1), pois a quantidade de ações do código
-# será a mesma, independente do tamanho do arra.
+# será a mesma, independente do tamanho do array.
+# A complexidade de espaço também será O(1), pois o retorno não depende
+# do tamanho do array.
