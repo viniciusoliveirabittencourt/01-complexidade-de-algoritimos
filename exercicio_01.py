@@ -1,4 +1,5 @@
-# Exercício 1 Dado um array de números de tamanho n,
+# Exercício 1
+# Dado um array de números de tamanho n,
 # escreva um algoritmo que retorna true se há no array um número duplicado e
 # false caso contrário.
 # Analise a solução abaixo e

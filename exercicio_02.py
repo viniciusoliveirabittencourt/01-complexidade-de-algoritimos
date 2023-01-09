@@ -1,4 +1,5 @@
-# Exercício 2 Suponha que se está escrevendo uma função para um jogo de
+# Exercício 2
+# Suponha que se está escrevendo uma função para um jogo de
 # batalha naval.
 # Dado um array bidimensional com n linhas e m colunas,
 # e um par de coordenadas x para linhas e y para colunas,
@@ -22,8 +23,7 @@ def naval_game(ships_position, target):
     if ships_position[x][y] == 1:
         return True
 
-    else:
-        return False
+    return False
 
 
 print(
